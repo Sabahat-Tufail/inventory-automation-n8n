@@ -23,14 +23,14 @@ This project automates stock tracking, product management, and reporting without
 
 ---
 
-##Project Workflow
+##   Project Workflow
 1. **Trigger** – Workflow starts from chat or API  
 2. **Fetch Data** – Queries Google Sheets (`inventory`)  
 3. **AI Agent** – Processes queries (count, search, update, delete)  
 4. **Response** – Returns results in structured format  
 
 
- ##Example
+ ##  Example
 | Product          | Stock |
 |------------------|-------|
 | Smartphone       | 25    |
@@ -41,7 +41,7 @@ This project automates stock tracking, product management, and reporting without
 Query: *"How many Smartphones are in stock?"*  
 Response: *Smartphone – 25*  
 
- ##Future Enhancements
+ ##   Future Enhancements
 - Low-stock alerts via Email/Slack/WhatsApp  
 - Advanced reporting dashboard  
 - Integration with e-commerce APIs  
